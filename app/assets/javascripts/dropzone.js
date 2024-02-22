@@ -3490,7 +3490,7 @@ if (typeof module !== 'undefined' && module !== null) {
 } else {
   window.Dropzone = Dropzone;
 } // Dropzone file status codes
-
+export default Dropzone;
 
 Dropzone.ADDED = "added";
 Dropzone.QUEUED = "queued"; // For backwards compatibility. Now, if a file is accepted, it's either queued
